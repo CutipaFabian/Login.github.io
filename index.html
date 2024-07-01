@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylus.css">
     <title>Inicio</title>
+
+     <script>
+        function irAMenu() {
+            window.location.href = "menu.html";
+        }
+    </script>
 </head>
 <body>
     <section class="login">
@@ -13,7 +19,7 @@
         </div>
         <div class="inputs">
             <input type="text" placeholder="Ingrese numero de mesa">
-            <a href="menu.html"><input type="button" value="INGRESAR"></a>
+              <button onclick="irAMenu()">Ingresar</button>
         </div>
     </section>
 </body>
