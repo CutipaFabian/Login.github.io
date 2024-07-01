@@ -1,0 +1,65 @@
+
+*{
+margin:10;
+padding: 10;
+box-sizing: border-box;
+}
+body {
+    height: 800px;
+    width: 800px;
+    background: rgb(235, 228, 228);
+    margin: auto;
+}
+
+
+header{
+
+    height: 150px;
+	background : rgb(209, 231, 7);
+    margin: auto;
+   
+
+}
+#ofert {
+
+height: 300px;
+background:#ff0000;
+
+}
+#comb{
+height: 350px;
+background:#ff0000;
+
+}
+#plats{
+    height: 300px;
+    background:#ff0000;
+}
+footer{
+
+    height: 30%;
+    background:#26ce26
+}
+
+#plats{
+
+    height: 500px;
+
+    background:red
+
+
+   
+    
+
+}
+ .imgs{
+  margin-left: 30%;  
+
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+}
+ 
