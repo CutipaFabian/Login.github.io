@@ -23,14 +23,15 @@ header{
     display: flex;
     margin: 10px;
 }
-a{
+.a_menu{
     margin: 10px;
     color: black;
+    background-color: green;
     text-decoration: none;
     transition: all 0.5s ease;
 }
-a:hoover{
-background: red;
+.a_menu:hoover{
+background-color: red;
 }
 
 
