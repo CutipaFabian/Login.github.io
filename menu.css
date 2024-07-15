@@ -30,7 +30,7 @@ a{
     transition: all 0.5s ease;
 }
 a:hoover{
-background-color: red;
+background: red;
 }
 
 
