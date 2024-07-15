@@ -15,7 +15,8 @@ body {
 header{
     background: rgb(209, 231, 7);
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 #ofert {
 
