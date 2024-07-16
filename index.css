@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80vh;
+    margin: 0;
+    background-image: url(aseets/fd_index.jpg);
+    background-repeat: 	no-repeat;
+    background-size: cover;
+    }
+
+.login {
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border-radius: 20px;    
+}
+
+.titulo {
+    background-color:#769551;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    color: #BA1818;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+margin-top: -3px;
+}
+
+.logo{
+width: 200px;
+border-radius: 200px;
+}
+.inputs {
+    background-color:rgb(255, 154, 0);
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+.inputs input {
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+}
+
+.texto{
+border-radius: 20px;
+}
+.bt_ingresar{
+padding: 15px;
+border-radius: 10px;
+background-color: rgb(255, 255, 128);
+font-size: 25px;
+
+}
+
