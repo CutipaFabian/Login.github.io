@@ -5,51 +5,61 @@ padding: 10;
 box-sizing: border-box;
 }
 body {
-    height: 800px;
-    width: 800px;
-    background: rgb(235, 228, 228);
+    background:#769551;
     margin: auto;
 }
 
-
+.logoytext{
+margin-left: 100px;
+display: flex;
+text-align: center;
+font-size: 30px;
+align-items: center;
+}
+span{
+color: #769551;}
 header{
-    background: rgb(209, 231, 7);
+    margin-top: -20px;
+    background: black;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    position: fixed;
+    width: 100%;    
+    
 }
 
 .menu{
     display: flex;
-    margin: 10px;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 70px;
+    
 }
 .a_menu{
-    margin: 10px;
-    color: black;
-    background-color: green;
+    color:rgb(255, 154, 0);
     text-decoration: none;
     padding: 10px;
-    border-radius: 10px;
+    transition: 0.5s ease;
 }
-.a_menu:hoover{
-background-color: red;
+.a_menu:hover{
+    color: red;
 }
 
 
 #ofert {
 
 height: 300px;
-background:#ff0000;
+background:
 
 }
 #comb{
 height: 350px;
-background:#ff0000;
+background:
 
 }
 #plats{
     height: 300px;
-    background:#ff0000;
+    background:
 }
 footer{
 
@@ -61,7 +71,7 @@ footer{
 
     height: 500px;
 
-    background:red
+    background:
 
 
    
@@ -79,3 +89,4 @@ footer{
     border: 1px solid;
 }
  
+
