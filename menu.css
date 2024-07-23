@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Verdana', sans-serif;
     margin: 0;
@@ -6,6 +5,8 @@ body {
     background-color: #e8f5e9;
     color: #3e2723;
 }
+
+
 
 h2, h3 {
     color: #2e7d32;
@@ -174,3 +175,19 @@ footer button:hover {
 }
 
 
+#ofert{
+    background-image: url(aseets/fd_divs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#comb{
+    background-size: cover;
+    background-image: url(aseets/fd_divs.jpg);
+}
+
+#plats{
+background-image: url(aseets/fd_divs.jpg);
+background-repeat: repeat-y;
+background-size: cover;
+}
